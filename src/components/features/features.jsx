@@ -3,7 +3,7 @@ import Feature from './feature/feature';
 import './features.css';
 
 class Features extends Component {
-    state = {  }
+    
     render() { 
         return ( 
         <div className='features-container'>
