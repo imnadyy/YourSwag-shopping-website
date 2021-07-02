@@ -4,7 +4,7 @@ import NavBar from './navBar/navBar';
 import Content from './content/content';
 
 class Hero extends Component {
-    state = {  }
+    
     render() { 
         return ( 
         <div className='hero'>
