@@ -1,0 +1,29 @@
+.footer {
+    height: 30vh;
+    width: 100%;
+    background-color: #0b0b46;
+    color:white;
+}
+
+.links {
+    margin-top: 7vh;
+    padding-bottom: 2vh;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.links h5 {
+    margin-bottom: 2vh;
+}
+

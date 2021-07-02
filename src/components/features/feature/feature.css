@@ -1,0 +1,16 @@
+.features{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.feature{
+    width: 20%;
+    height: 20vh;
+    margin-top: 3vh;
+}
+
+.feature h5 {
+    font-size: x-large;
+    padding-bottom: 2vh;
+}
+

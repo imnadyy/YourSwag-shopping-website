@@ -1,0 +1,27 @@
+.showBrands {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 2% 5%;
+}
+
+.tagline {
+    width: 50%;
+}
+
+.tagline p {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.brand-heading {
+    font-size: 250%;
+    padding-top: 12%;
+    padding-left: 10%;
+}
+
+.brands-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}

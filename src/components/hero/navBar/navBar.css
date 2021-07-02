@@ -1,0 +1,65 @@
+.navBar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.light-coloured {
+    width: 60%;
+    background-color: #ededfc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dark-coloured {
+    width: 40%;
+    background: #18191f;
+}
+
+.navBar a {
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 3vh;
+    text-decoration: none;
+}
+
+.menu span {
+    font-weight: 900;
+    margin-right: 10%;
+}
+
+.menu {
+    width: 80%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    width: 45%;
+    margin: 1.5vh auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+}
+
+.account {
+    background: #34353A;
+}
+
+.design {
+    background: #2222D3;
+}

@@ -1,0 +1,33 @@
+.products{
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    background-color: white;
+    min-width: 18%;
+    min-height: 20vh;
+    border-radius: 10px;
+    margin: 3.5%;
+}
+
+.product img{
+    height: 20vh;
+    float: right;
+    margin-right: 1%;
+}
+
+.product h5 {
+    float: left;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.product a {
+    color: black;
+    text-decoration: none;
+}
+
+.product a:hover {
+    color:coral
+}

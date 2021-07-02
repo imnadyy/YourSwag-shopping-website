@@ -1,0 +1,29 @@
+.brands-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1% auto;
+}
+
+.brands-container img {
+    width:  110px;
+    height: 110px;
+    padding-top: 2%;
+}
+
+.row-1 {
+    width: 90%;
+    height: 50%;
+    margin: 1% auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row-2 {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto 1% auto;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,34 @@
+.cust {
+    height: 40vh;
+    width: 80%;
+    margin: 7vh auto;
+}
+
+.customer {
+    background-color: white;
+    height: 35vh;
+    width: 80%;
+    padding: 5%;
+    margin: 5vh auto;
+    border-radius: 25px;
+}
+
+.customer img {
+    width: 40px;
+    height: 40px;
+    margin-top: 4vh;
+    border-radius: 15px;
+    object-fit: cover;
+    float: left;
+}
+
+.customer h4 {
+    float: left;
+    margin-top: 5vh;
+    margin-left: 5%;
+}
+
+.customer p {
+    float: right;
+    margin-top: 5%;
+}

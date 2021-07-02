@@ -1,0 +1,12 @@
+.catalog {
+    text-align: center;
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgba(34, 34, 211, 0.04);
+}
+
+.catalog h1{
+    /* margin: 2% auto; */
+    padding-top: 3%;
+    padding-bottom: 1%;
+}

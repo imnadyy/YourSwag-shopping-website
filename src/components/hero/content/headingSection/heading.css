@@ -1,0 +1,29 @@
+.heading-section {
+    width: 50%;
+    height: 100%;
+    background-color: #ededfc;
+    float: left;
+}
+
+.tagline-container {
+    margin-top: 18vh;
+    margin-left: 10%;
+}
+
+.tag-line {
+    font-size: 500%;
+    margin-bottom: 2vh;
+}
+
+.heading-section button {
+    font-weight: bolder;
+    padding: 1.5%;
+    border: none;
+    background-color: #2222d3;
+    border-radius: 5px;
+    color: white;
+}
+
+.heading-section p {
+    margin-bottom: 3vh;
+}
