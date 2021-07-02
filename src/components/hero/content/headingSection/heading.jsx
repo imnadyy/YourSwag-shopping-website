@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './heading.css';
 
 class Heading extends Component {
-    state = {  }
+    
     render() { 
         return ( 
             <div className="heading-section">
