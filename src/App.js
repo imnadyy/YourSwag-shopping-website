@@ -7,7 +7,7 @@ import Testimonial from './components/testimonial/testimonial';
 import Footer from './components/footer/footer';
 
 class App extends Component {
-  state = {  }
+  
   render() { 
     return (<div>
         <Hero />
