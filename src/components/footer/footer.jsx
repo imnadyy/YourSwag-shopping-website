@@ -6,7 +6,7 @@ import ShopFor from './components/shopFor';
 import FollowUs from './components/followUs';
 
 class Footer extends Component {
-    state = {  }
+    
     render() { 
         return ( 
             <div className="footer">
