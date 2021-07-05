@@ -18,33 +18,17 @@ class Feedbacks extends Component {
         return ( 
             <div>
                 <Carousel interval={1500}>
-                    <Carousel.Item>
-                        <div className='cust'>
-                            <div className="customer">
-                                <img src={this.state.feedbacks[0].picture} alt="customer 1" />
-                                <h4>{this.state.feedbacks[0].userName}</h4>
-                                <p>{this.state.feedbacks[0].feedback}</p>
+                    {this.state.feedbacks.map((f,index)=>(
+                        <Carousel.Item key={index}>
+                            <div className="cust">
+                                <div className="customer">
+                                    <img src={f.picture} alt='Customer 1'/>
+                                    <h4>{f.userName}</h4>
+                                    <p>{f.feedback}</p>
+                                </div>
                             </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className='cust'>
-                            <div className="customer">
-                            <img src={this.state.feedbacks[1].picture} alt="customer 2" />
-                                <h4>{this.state.feedbacks[1].userName}</h4>
-                                <p>{this.state.feedbacks[1].feedback}</p>
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className='cust'>
-                            <div className="customer">
-                            <img src={this.state.feedbacks[2].picture} alt="customer 3" />
-                                <h4>{this.state.feedbacks[2].userName}</h4>
-                                <p>{this.state.feedbacks[2].feedback}</p>
-                            </div>
-                        </div>
-                    </Carousel.Item>
+                        </Carousel.Item>
+                    ))}
                 </Carousel>
             </div>
          );
