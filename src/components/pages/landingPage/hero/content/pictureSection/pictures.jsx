@@ -6,7 +6,7 @@ import image3 from '../../../../../../pictures/image3.jpg';
 import image4 from '../../../../../../pictures/product13.png';
 
 class PictureSection extends Component {
-    state = {  }
+    
     render() { 
         return ( 
             <div className="picture-section">
