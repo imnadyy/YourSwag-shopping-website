@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './product.css';
-import product1 from '../../../pictures/product11.png';
-import product2 from '../../../pictures/product12.png';
-import product3 from '../../../pictures/product13.png';
-import product4 from '../../../pictures/product14.png';
+import product1 from '../../../../../pictures/product11.png';
+import product2 from '../../../../../pictures/product12.png';
+import product3 from '../../../../../pictures/product13.png';
+import product4 from '../../../../../pictures/product14.png';
 
 class Product extends Component {
     state = { 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './brands.css';
-import adidas from '../../../pictures/adidas.png';
+import adidas from '../../../../../pictures/adidas.png';
 
 
 class Brands extends Component {

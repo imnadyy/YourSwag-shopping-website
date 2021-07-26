@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-import Hero from './components/hero/hero'
-import ShowBrands from './components/showBrands/showBrands';
-import Catalog from './components/productCatalog/catalog';
-import Features from './components/features/features';
-import Testimonial from './components/testimonial/testimonial';
-import Footer from './components/footer/footer';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import NavBar from './components/pages/navBar/navBar';
+import LandingPage from './components/pages/landingPage/landingPage';
+import Product from './components/pages/products';
+import TrackOrder from './components/pages/trackOrder';
+import RetriveDesign from './components/pages/retrieveDesign';
+import Error from './components/pages/error';
 
 class App extends Component {
-  state = {  }
+  
   render() { 
     return (<div>
-        <Hero />
-        <ShowBrands />
-        <Catalog />
-        <Features />
-        <Testimonial />
-        <Footer />
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route exact path='/' component={LandingPage}/>
+          <Route exact path='/products' component={Product}/>
+          <Route exact path='/trackOrder' component={TrackOrder}/>
+          <Route exact path='/retrieveDesign' component={RetriveDesign}/>
+      
+          <Route component={Error}/>
+        </Switch>
+      </BrowserRouter>
     </div>);
   }
 }

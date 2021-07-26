@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './pictures.css';
-import image1 from '../../../../pictures/image1.jpg';
-import image2 from '../../../../pictures/image2.jpg';
-import image3 from '../../../../pictures/image3.jpg';
-import image4 from '../../../../pictures/product13.png';
+import image1 from '../../../../../../pictures/image1.jpg';
+import image2 from '../../../../../../pictures/image2.jpg';
+import image3 from '../../../../../../pictures/image3.jpg';
+import image4 from '../../../../../../pictures/product13.png';
 
 class PictureSection extends Component {
     state = {  }

@@ -21,5 +21,5 @@ class FollowUs extends Component {
          );
     }
 }
- 
+
 export default FollowUs;

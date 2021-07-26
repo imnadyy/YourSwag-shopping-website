@@ -3,7 +3,7 @@ import Feedbacks from './feedbacks/feedbacks';
 import './testimonial.css';
 
 class Testimonial extends Component {
-    state = {  }
+    
     render() { 
         return ( 
             <div className='testimonial'>

@@ -3,7 +3,7 @@ import './catalog.css';
 import Product from './products/product';
 
 class Catalog extends Component {
-    state = {  }
+    
     render() { 
         return (
             <div className='catalog'>

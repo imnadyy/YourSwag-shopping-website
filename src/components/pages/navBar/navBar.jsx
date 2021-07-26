@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import './navBar.css';
+import { Link } from 'react-router-dom';
 
 class NavBar extends Component {
-    state = {  }
+    
     render() { 
         return ( 
             <div className='navBar'>
                 <div className='light-coloured'>
                     <div className="menu">
-                        <a href="#"><span>YourSwag.</span></a>
-                        <a href="#">Products</a>
-                        <a href="#">Track Order</a>
-                        <a href="#">Retreive Design</a>
+                        <Link className='linked' to='/'><span>YourSwag</span></Link>
+                        <Link className='linked' to='/products'>Products</Link>
+                        <Link className='linked' to='/trackOrder'>Track Order</Link>
+                        <Link className='linked' to='/retrieveDesign'>Retrieve Design</Link>
                     </div>
                 </div>
                 <div className='dark-coloured'>
